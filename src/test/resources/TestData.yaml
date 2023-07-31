@@ -1,0 +1,28 @@
+Post:
+   BaseUrl: https://jsonplaceholder.typicode.com/
+   username: abcd
+   password: 1111
+   Title: Test Post
+   PostData: This is a Test Post
+   TitleMissingErrorMessage: Title should be present
+   BodyMissingErrorMessage: Body Should be Present
+   BothMissingErrorMessage: Both title and body are missing
+   LongTitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec turpis id risus bibendum euismod. Proin vel odio at lacus dignissim blandit. Fusce iaculis ullamcorper ante, eu laoreet eros ultrices eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eget libero purus. Aenean malesuada eget velit id venenatis. Mauris aliquam metus non nisi facilisis, ac venenatis est hendrerit. Etiam ultrices risus metus, vel auctor ex vehicula eget. Fusce in metus nibh. Vivamus eget mi massa. Quisque dapibus ex eu arcu pellentesque, eu semper nulla lacinia. Proin rhoncus consectetur ligula vel fringilla. Fusce sem elit, interdum ac neque eu, interdum tempus turpis. Donec in tortor id turpis vehicula euismod in nec nulla. Nulla sagittis odio vel fringilla congue
+   LongPostData: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec turpis id risus bibendum euismod. Proin vel odio at lacus dignissim blandit. Fusce iaculis ullamcorper ante, eu laoreet eros ultrices eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eget libero purus. Aenean malesuada eget velit id venenatis. Mauris aliquam metus non nisi facilisis, ac venenatis est hendrerit. Etiam ultrices risus metus, vel auctor ex vehicula eget. Fusce in metus nibh. Vivamus eget mi massa. Quisque dapibus ex eu arcu pellentesque, eu semper nulla lacinia. Proin rhoncus consectetur ligula vel fringilla. Fusce sem elit, interdum ac neque eu, interdum tempus turpis. Donec in tortor id turpis vehicula euismod in nec nulla. Nulla sagittis odio vel fringilla congue
+   LengthErrorMessage: Post title and body should be less than 300 characters
+   AuthenticateErrorMessage: User needs to be authenticated
+   TitleWithSpecialCharacters: Test Post%$!@
+   DataWithSpecialCharacters: This is a Test Post *&(@%
+Comment:
+   BaseUrl: https://jsonplaceholder.typicode.com/
+   username: abcd
+   password: 1111
+   CommentData: This is a comment for a post
+   CommentMissingErrorMessage: Comment is missing
+   PostNotFoundErrorMessage: Post not found
+   LongComment: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec turpis id risus bibendum euismod. Proin vel odio at lacus dignissim blandit. Fusce iaculis ullamcorper ante, eu laoreet eros ultrices eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eget libero purus. Aenean malesuada eget velit id venenatis. Mauris aliquam metus non nisi facilisis, ac venenatis est hendrerit. Etiam ultrices risus metus, vel auctor ex vehicula eget. Fusce in metus nibh. Vivamus eget mi massa. Quisque dapibus ex eu arcu pellentesque, eu semper nulla lacinia. Proin rhoncus consectetur ligula vel fringilla. Fusce sem elit, interdum ac neque eu, interdum tempus turpis. Donec in tortor id turpis vehicula euismod in nec nulla. Nulla sagittis odio vel fringilla congue
+   CommentLengthErrorMessage: Comment should be less than 300 characters
+   CommentDataWithSpecialCharacters: This is a comment for a post !@^%*&
+Users:
+   PageNumberErrorMessage: invalid page number given
+   PageSizeErrorMessage: invalid page size given
